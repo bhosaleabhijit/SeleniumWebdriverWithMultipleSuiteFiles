@@ -19,7 +19,7 @@ import org.testng.annotations.BeforeTest;
 
 public class BaseTest {
 	
-	
+	// Before test
 	@BeforeTest
 	public void setTestRunEnvironment() {
 		System.out.println("Set Test Run Method Before Test.");

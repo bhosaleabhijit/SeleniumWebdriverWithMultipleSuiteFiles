@@ -9,6 +9,7 @@ public class testClassOne extends BaseClass {
 	{
 		driver.get("https://www.google.com");
 		
+		// get the search text
 		WebElement searchbox = driver.findElement(By.name("q"));
 		
 		searchbox.sendKeys("This is Test Method One.");

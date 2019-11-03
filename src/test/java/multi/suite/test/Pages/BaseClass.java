@@ -11,6 +11,7 @@ public class BaseClass {
 	
 	public static void initializeDriver()
 	{
+	// do not use hard coded path of chrome driver	
 		WebDriverManager.chromedriver().setup();		
 	//	System.setProperty("webdriver.chrome.driver", "G:\\Automation Softwares\\Selenium\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();

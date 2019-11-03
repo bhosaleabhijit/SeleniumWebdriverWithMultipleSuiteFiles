@@ -5,5 +5,5 @@
     <classes>
       <class name="tests.TestClassTwoTest"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> 
+</suite> 

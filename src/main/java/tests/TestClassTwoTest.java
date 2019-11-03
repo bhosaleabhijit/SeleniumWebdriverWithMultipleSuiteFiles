@@ -8,6 +8,7 @@ public class TestClassTwoTest extends BaseTest {
 
 	@Test
 	public static void testTwo() {
+		// Second test
 		TestClassTwo.methodTwo();
 	}
 }

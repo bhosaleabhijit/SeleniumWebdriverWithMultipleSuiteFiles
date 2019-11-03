@@ -16,6 +16,7 @@ public class TestClassTwo extends BaseClass {
 			e.printStackTrace();
 		}
 		
+		// Get search eleement
 		WebElement searchbox = driver.findElement(By.name("q"));
 		
 		searchbox.sendKeys("This is Test Method Two.");
